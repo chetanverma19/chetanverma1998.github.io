@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aman Exports</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#tab1").mouseover(function(){
+    			$("#tab1").stop().fadeTo(300,0.5);
+			});
+			$("#tab1").mouseout(function(){
+    			$("#tab1").stop().fadeTo(300,1);
+			});
+		});
+		$(function(){
+			$("#tab2").mouseover(function(){
+    			$("#tab2").stop().fadeTo(300,0.5);
+			});
+			$("#tab2").mouseout(function(){
+    			$("#tab2").stop().fadeTo(300,1);
+			});
+		$(function(){
+			$("#tab3").mouseover(function(){
+    			$("#tab3").stop().fadeTo(300,0.5);
+			});
+			$("#tab3").mouseout(function(){
+    			$("#tab3").stop().fadeTo(300,1);
+			});
+		});
+		$(function(){
+			$("#tab4").mouseover(function(){
+    			$("#tab4").stop().fadeTo(300,0.5);
+			});
+			$("#tab4").mouseout(function(){
+    			$("#tab4").stop().fadeTo(300,1);
+			});
+		});
+		});
+	</script>
+	<style type="text/css">
+		#tab1{
+			width: 23%;
+			height: 50px;
+			float: left;
+			background-color: #e74c3c;
+		}
+		#tab2{
+			width: 23%;
+			height: 50px;
+			float: left;
+			background-color: #e74c3c;
+		}
+		#tab3{
+			width: 23%;
+			height: 50px;
+			float: left;
+			background-color: #e74c3c;
+		}
+		#tab4{
+			width: 23%;
+			height: 50px;
+			float: left;
+			background-color: #e74c3c;
+		}
+		.tabt{
+			font-family: "Segoe UI";
+			text-align: center;
+			color: #FFFFFF;
+		}
+		.ws_images{
+			float: left;
+		}
+			body { 
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+	</style>
+</head>
+<body>
+	<div><img src="Logo.png" style="width: 7%; height: 50px; padding-right: 5px; float: left;"></div>
+	<div id="tab1"><p class="tabt">Home</p></div>
+	<div id="tab2"><p class="tabt">Products</p></div>
+	<div id="tab3"><p class="tabt">About Us</p></div>
+	<div id="tab4"><p class="tabt">Contact Us</p></div>
+	<div id="products"><img src=""></div>
+</body>
+</html>
