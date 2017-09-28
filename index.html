@@ -5,6 +5,54 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript">
+		function main()
+		{
+			document.getElementById("secondary").setAttribute("src","main.html");
+		}
+		function anchorp()
+		{
+			document.getElementById("secondary").setAttribute("src","anchorp.html");
+		}
+		function coverr()
+		{
+			document.getElementById("secondary").setAttribute("src","coverr.html");
+		}
+		function glassc()
+		{
+			document.getElementById("secondary").setAttribute("src","glassc.html");
+		}
+		function pipec()
+		{
+			document.getElementById("secondary").setAttribute("src","pipec.html");
+		}
+		function radiusd()
+		{
+			document.getElementById("secondary").setAttribute("src","radiusd.html");
+		}
+		function rails()
+		{
+			document.getElementById("secondary").setAttribute("src","rails.html");
+		}
+		function square()
+		{
+			document.getElementById("secondary").setAttribute("src","square.html");
+		}
+		function tubingp()
+		{
+			document.getElementById("secondary").setAttribute("src","tubingp.html");
+		}
+		function walla()
+		{
+			document.getElementById("secondary").setAttribute("src","walla.html");
+		}
+		function about()
+		{
+			document.getElementById("secondary").setAttribute("src","about.html");
+		}
+		function contact()
+		{
+			document.getElementById("secondary").setAttribute("src","contact.html");
+		}
 		$(function(){
 			$("#tab1").mouseover(function(){
     			$("#tab1").stop().fadeTo(300,0.5);
@@ -36,6 +84,90 @@
     			$("#tab4").stop().fadeTo(300,1);
 			});
 		});
+		$(function(){
+			$("#ap").mouseover(function(){
+    			$("#ap").stop().animate({backgroundColor: "#F0F0F0"},300);
+			});
+			$("#ap").mouseout(function(){
+    			$("#ap").stop().animate({backgroundColor: "#FFFFFF"},300);
+			});
+		});
+		$(function(){
+			$("#ap1").mouseover(function(){
+    			$("#ap1").stop().animate({backgroundColor: "#F0F0F0"},300);
+			});
+			$("#ap1").mouseout(function(){
+    			$("#ap1").stop().animate({backgroundColor: "#FFFFFF"},300);
+			});
+		});
+		$(function(){
+			$("#ap2").mouseover(function(){
+    			$("#ap2").stop().animate({backgroundColor: "#F0F0F0"},300);
+			});
+			$("#ap2").mouseout(function(){
+    			$("#ap2").stop().animate({backgroundColor: "#FFFFFF"},300);
+			});
+		});
+		$(function(){
+			$("#ap3").mouseover(function(){
+    			$("#ap3").stop().animate({backgroundColor: "#F0F0F0"},300);
+			});
+			$("#ap3").mouseout(function(){
+    			$("#ap3").stop().animate({backgroundColor: "#FFFFFF"},300);
+			});
+		});
+		$(function(){
+			$("#ap4").mouseover(function(){
+    			$("#ap4").stop().animate({backgroundColor: "#F0F0F0"},300);
+			});
+			$("#ap4").mouseout(function(){
+    			$("#ap4").stop().animate({backgroundColor: "#FFFFFF"},300);
+			});
+		});
+		$(function(){
+			$("#ap5").mouseover(function(){
+    			$("#ap5").stop().animate({backgroundColor: "#F0F0F0"},300);
+			});
+			$("#ap5").mouseout(function(){
+    			$("#ap5").stop().animate({backgroundColor: "#FFFFFF"},300);
+			});
+		});
+		$(function(){
+			$("#ap6").mouseover(function(){
+    			$("#ap6").stop().animate({backgroundColor: "#F0F0F0"},300);
+			});
+			$("#ap6").mouseout(function(){
+    			$("#ap6").stop().animate({backgroundColor: "#FFFFFF"},300);
+			});
+		});
+		$(function(){
+			$("#ap7").mouseover(function(){
+    			$("#ap7").stop().animate({backgroundColor: "#F0F0F0"},300);
+			});
+			$("#ap7").mouseout(function(){
+    			$("#ap7").stop().animate({backgroundColor: "#FFFFFF"},300);
+			});
+		});
+		$(function(){
+			$("#ap8").mouseover(function(){
+    			$("#ap8").stop().animate({backgroundColor: "#F0F0F0"},300);
+			});
+			$("#ap8").mouseout(function(){
+    			$("#ap8").stop().animate({backgroundColor: "#FFFFFF"},300);
+			});
+		});
+		$(function(){
+		$("#tab2").click(function(){
+   			$("#products").stop().slideToggle();
+		});
+		$("#products").click(function(){
+   			$("#products").stop().slideUp();
+		});
+		});
+		$("#products").stop().slideUp();
+		$("tab3").click(function(){
+			$
+		})
 		});
 	</script>
 	<style type="text/css">
@@ -43,30 +175,31 @@
 			width: 23%;
 			height: 50px;
 			float: left;
-			background-color: #e74c3c;
+			background-color: #c0392b;
 		}
 		#tab2{
 			width: 23%;
 			height: 50px;
 			float: left;
-			background-color: #e74c3c;
+			background-color: #c0392b;
 		}
 		#tab3{
 			width: 23%;
 			height: 50px;
 			float: left;
-			background-color: #e74c3c;
+			background-color: #c0392b;
 		}
 		#tab4{
 			width: 23%;
 			height: 50px;
 			float: left;
-			background-color: #e74c3c;
+			background-color: #c0392b;
 		}
 		.tabt{
 			font-family: "Segoe UI";
 			text-align: center;
 			color: #FFFFFF;
+			font-weight: 500;
 		}
 		.ws_images{
 			float: left;
@@ -77,14 +210,91 @@
     background-attachment: fixed;
     background-position: center; 
 }
+body, html
+            {
+                margin: 0; padding: 0; height: 100%; overflow: hidden;
+            }
+
+            #content
+            {
+                position:absolute; left: 0; right: 0; bottom: 0; top: 0px; padding-top: 50px; 
+            }
+            #products{
+            	padding-left: 50px;
+            }
+            #ap{
+            	width: 120px;
+            	height: 200px;
+            	background-color: #FFFFFF;
+            	float: left;
+            }
+            #ap1{
+            	width: 120px;
+            	height: 200px;
+            	background-color: #FFFFFF;
+            	float: left;
+            }
+            #ap2{
+            	width: 120px;
+            	height: 200px;
+            	background-color: #FFFFFF;
+            	float: left;
+            }
+            #ap3{
+            	width: 120px;
+            	height: 200px;
+            	background-color: #FFFFFF;
+            	float: left;
+            }
+            #ap4{
+            	width: 120px;
+            	height: 200px;
+            	background-color: #FFFFFF;
+            	float: left;
+            }
+            #ap5{
+            	width: 120px;
+            	height: 200px;
+            	background-color: #FFFFFF;
+            	float: left;
+            }
+            #ap6{
+            	width: 120px;
+            	height: 200px;
+            	background-color: #FFFFFF;
+            	float: left;
+            }
+            #ap7{
+            	width: 120px;
+            	height: 200px;
+            	background-color: #FFFFFF;
+            	float: left;
+            }
+            #ap8{
+            	width: 120px;
+            	height: 200px;
+            	background-color: #FFFFFF;
+            	float: left;
+            }
 	</style>
 </head>
 <body>
 	<div><img src="Logo.png" style="width: 7%; height: 50px; padding-right: 5px; float: left;"></div>
-	<div id="tab1"><p class="tabt">Home</p></div>
+	<div id="tab1" onclick="main()"><p class="tabt">Home</p></div>
 	<div id="tab2"><p class="tabt">Products</p></div>
-	<div id="tab3"><p class="tabt">About Us</p></div>
-	<div id="tab4"><p class="tabt">Contact Us</p></div>
-	<div id="products"><img src=""></div>
+	<div id="tab3" onclick="about()"><p class="tabt">About Us</p></div>
+	<div id="tab4" onclick="contact()"><p class="tabt">Contact Us</p></div>
+	<div id="products">
+		<div id="ap" onclick="anchorp()"><img src="anchorp.jpg" style="height: 100px; padding: 5px;"><p style="text-align: center; font-family: Segoe UI"><b>Anchor Plates</b></p></div>
+		<div id="ap1" onclick="coverr()"><img src="coverr.jpg" style="height: 100px; padding: 5px;"><p style="text-align: center; font-family: Segoe UI"><b>Covering Rosettes</b></p></div>
+		<div id="ap2" onclick="glassc()"><img src="glassc.jpg" style="height: 100px; padding: 5px;"><p style="text-align: center; font-family: Segoe UI"><b>Glass Clamps</b></p></div>
+		<div id="ap3" onclick="pipec()"><img src="pipec.jpg" style="height: 100px; padding: 5px;"><p style="text-align: center; font-family: Segoe UI"><b>Pipe Connectors</b></p></div>
+		<div id="ap4" onclick="radiusd()"><img src="radiusd.jpg" style="height: 100px; padding: 5px;"><p style="text-align: center; font-family: Segoe UI"><b>Radius Discs</b></p></div>
+		<div id="ap5" onclick="rails()"><img src="rails.jpg" style="height: 100px; padding: 5px;"><p style="text-align: center; font-family: Segoe UI"><b>Rail Support</b></p></div>
+		<div id="ap6" onclick="square()"><img src="square.jpg" style="height: 100px; padding: 5px;"><p style="text-align: center; font-family: Segoe UI"><b>Square Supports</b></p></div>
+		<div id="ap7" onclick="tubingp()"><img src="tubingp.jpg" style="height: 100px; padding: 5px;"><p style="text-align: center; font-family: Segoe UI"><b>Tubing Plugs</b></p></div>
+		<div id="ap8" onclick="walla()"><img src="walla.jpg" style="height: 100px; padding: 5px;"><p style="text-align: center; font-family: Segoe UI"><b>Wall Anchors</b></p></div>
+	</div>
+	<iframe id="secondary" width="100%" height="100%" frameborder="0" src="" />
 </body>
 </html>
